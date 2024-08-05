@@ -1,0 +1,6 @@
+file1=open("egforlab2.txt","r+")
+print("Output of read function")
+print(file1.read())
+file1.write("   hello by write function")
+print(file1.read())
+file1.close()
